@@ -13,6 +13,15 @@ let process = {
 
     <div className="list-group">
       <ul>
+      <li className="list-group-title"></li>
+        <li><a href='#' onClick={process.Alliance}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">Alliance</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
         <li className="list-group-title"></li>
         <li><a href='#' onClick={process.NewBee}>
           <div className="item-content">
@@ -75,6 +84,28 @@ let process = {
 </div>
 </div>
 </div>;
+         ReactDOM.render(content,document.getElementById('root'));
+  },
+  Alliance:function(){
+         let content = <div className="page">
+    <div className="page-content infinite-scroll infinite-scroll-top">
+<div className="page-content contacts-content">
+  <div className="list-block contacts-block">
+    <div className="list-group">
+     <div className="navbar">
+              <div className="navbar-inner">
+                <div className="center">Alliance</div>
+              </div>
+            </div>
+            <center><img src={"img/NB.jpg"} width={"100%"}/>
+            <p>Alliance is a Swedish professional gaming organization formed in 2013. They are the Dota 2 The International Champion 2014.
+ </p></center>
+            <br/><a href='#' onClick={process.menu}>back</a>
+</div>
+</div>
+</div>
+</div>
+</div>;
       ReactDOM.render(content,document.getElementById('root'));
   },
   NewBee:function(){
@@ -85,7 +116,7 @@ let process = {
     <div className="list-group">
      <div className="navbar">
               <div className="navbar-inner">
-                <div className="center">Lineback</div>
+                <div className="center">NewBee</div>
               </div>
             </div>
             <center><img src={"img/NB.jpg"} width={"100%"}/>
@@ -153,7 +184,7 @@ let process = {
                 <div className="center">TeamLiquid</div>
               </div>
             </div>
-            <center><img src={"img/L3.jpg"} width={"100%"}/>
+            <center><img src={"img/Liquid.jpg"} width={"100%"}/>
             <p>Team Liquid is a professional team, founded in the Netherlands in 2000.They are the Dota 2 The International Champion 2017. </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
