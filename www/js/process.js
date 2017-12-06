@@ -13,6 +13,7 @@ let process = {
 
     <div className="list-group">
       <ul>
+        <li className="list-group-title"></li>
         <li><a href='#' onClick={process.NewBee}>
           <div className="item-content">
             <div className="item-inner">
@@ -21,7 +22,6 @@ let process = {
             </div>
           </div></a>
         </li>
-    </li>
         <li><a href='#' onClick={process.EvilGeniuses}>
           <div className="item-content">
             <div className="item-inner">
@@ -29,8 +29,8 @@ let process = {
                   <div className="item-after">Details</div>
             </div>
           </div></a>
-            </li>
-       <li><a href='#' onClick={process.WingsGaming}>
+        </li>
+        <li><a href='#' onClick={process.WingsGaming}>
           <div className="item-content">
             <div className="item-inner">
               <div className="item-title">WingsGaming</div>
@@ -45,6 +45,7 @@ let process = {
                   <div className="item-after">Details</div>
             </div>
           </div></a>
+        </li>
       </ul>
     </div>
 
@@ -76,26 +77,27 @@ let process = {
 </div>;
       ReactDOM.render(content,document.getElementById('root'));
   },
-    NewBee:function(){
-     let content = <div className="page">
+  NewBee:function(){
+         let content = <div className="page">
     <div className="page-content infinite-scroll infinite-scroll-top">
 <div className="page-content contacts-content">
   <div className="list-block contacts-block">
     <div className="list-group">
      <div className="navbar">
               <div className="navbar-inner">
-                <div className="center">NewBee</div>
+                <div className="center">Lineback</div>
               </div>
             </div>
             <center><img src={"img/NB.jpg"} width={"100%"}/>
-            <p>Newbee is a professional Dota 2 team based in Shanghai, China.They are the champion of Dota 2 The International 2014. </p></center>
+            <p>Newbee is a professional Dota 2 team based in Shanghai, China. They are the Dota 2 The International Champion 2014.
+ </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
 </div>
 </div>
 </div>
 </div>;
-            ReactDOM.render(content,document.getElementById('root'));
+      ReactDOM.render(content,document.getElementById('root'));
   },
   EvilGeniuses:function(){
          let content = <div className="page">
@@ -109,7 +111,7 @@ let process = {
               </div>
             </div>
             <center><img src={"img/EG.jpg"} width={"100%"}/>
-            <p>Evil Geniuses is a professional gaming organization founded in 1999, organization is in North America. They are the champion of Dota 2 The International 2015.
+            <p>Evil Geniuses is a professional gaming organization founded in 1999, organization is in North America.They are the Dota 2 The International Champion 2015.
  </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
@@ -117,10 +119,10 @@ let process = {
 </div>
 </div>
 </div>;
-          ReactDOM.render(content,document.getElementById('root'));
+      ReactDOM.render(content,document.getElementById('root'));
   },
-    WingsGaming:function(){
-     let content = <div className="page">
+  WingsGaming:function(){
+  let content = <div className="page">
     <div className="page-content infinite-scroll infinite-scroll-top">
 <div className="page-content contacts-content">
   <div className="list-block contacts-block">
@@ -131,14 +133,14 @@ let process = {
               </div>
             </div>
             <center><img src={"img/W.jpg"} width={"100%"}/>
-            <p>Wings Gaming is a defunct Chinese eSports team that was based in Chongqing. They are the champion of Dota 2 The International 2016. </p></center>
+            <p>Wings Gaming is a defunct Chinese eSports team that was based in Chongqing. They are the Dota 2 The International Champion 2016. </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
 </div>
 </div>
 </div>
 </div>;
-                ReactDOM.render(content,document.getElementById('root'));
+      ReactDOM.render(content,document.getElementById('root'));
   },
     TeamLiquid:function(){
      let content = <div className="page">
@@ -151,8 +153,8 @@ let process = {
                 <div className="center">TeamLiquid</div>
               </div>
             </div>
-            <center><img src={"img/Liquid.jpg"} width={"100%"}/>
-            <p>Team Liquid is a professional team, founded in the Netherlands in 2000. They are the champion of Dota 2 The International 2017. </p></center>
+            <center><img src={"img/L3.jpg"} width={"100%"}/>
+            <p>Team Liquid is a professional team, founded in the Netherlands in 2000.They are the Dota 2 The International Champion 2017. </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
 </div>
