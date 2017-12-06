@@ -87,27 +87,6 @@ let process = {
 </div>
 </div>
 </div>;
-    ReactDOM.render(content,document.getElementById('root'));
-  },
-  Alicorn:function(){
-    let content = <div className="page">
-    <div className="page-content infinite-scroll infinite-scroll-top">
-<div className="page-content contacts-content">
-  <div className="list-block contacts-block">
-    <div className="list-group">
-     <div className="navbar">
-              <div className="navbar-inner">
-                <div className="center">World of Myth</div>
-              </div>
-            </div>
-            <center><img src={"img/imp.jpg"}/>
-            <p>asdajslfkjsldkjadlk jalkjlksjdlkaj lkj lakjskldj </p></center>
-            <br/><a href='#' onClick={process.menu}>back</a>
-</div>
-</div>
-</div>
-</div>
-</div>;
       ReactDOM.render(content,document.getElementById('root'));
   },
   NaVi:function(){
@@ -232,7 +211,7 @@ let process = {
               </div>
             </div>
             <center><img src={"img/W.jpg"} width={"100%"}/>
-            <p>Wings Gaming is a defunct Chinese Dota 2 eSports team that was based in Chongqing.
+            <p>Wings Gaming is a defunct Chinese eSports team that was based in Chongqing.
  </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
