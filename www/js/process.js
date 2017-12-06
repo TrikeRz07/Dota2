@@ -89,7 +89,7 @@ let process = {
               </div>
             </div>
             <center><img src={"img/N.jpg"} width={"100%"}/>
-            <p>Natus Vincere also known as NaVi, is a Ukrianian multigaming e-Sports organization.
+            <p>Natus Vincere also known as NaVi, is a Ukrianian multigaming e-Sports organization. They are the champion of Dota 2 The International 2011.
  </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
@@ -111,7 +111,7 @@ let process = {
               </div>
             </div>
             <center><img src={"img/IG.jpg"} width={"100%"}/>
-            <p>Invictus Gaming is a Chinese multi-platform e-sports organization.
+            <p>Invictus Gaming is a Chinese multi-platform e-sports organization.They are the champion of Dota 2 The International 2012.
  </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
@@ -133,7 +133,7 @@ let process = {
               </div>
             </div>
             <center><img src={"img/A.jpg"} width={"100%"}/>
-            <p>Alliance is a Swedish professional gaming organization formed in 2013. </p></center>
+            <p>Alliance is a Swedish professional gaming organization formed in 2013.They are the champion of Dota 2 The International 2013. </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
 </div>
@@ -154,7 +154,7 @@ let process = {
               </div>
             </div>
             <center><img src={"img/NB.jpg"} width={"100%"}/>
-            <p>Newbee is a professional Dota 2 team based in Shanghai, China. </p></center>
+            <p>Newbee is a professional Dota 2 team based in Shanghai, China.They are the champion of Dota 2 The International 2014. </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
 </div>
