@@ -14,6 +14,15 @@ let process = {
     <div className="list-group">
       <ul>
       <li className="list-group-title"></li>
+        <li><a href='#' onClick={process.InvictusGaming}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">InvictusGaming</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      <li className="list-group-title"></li>
         <li><a href='#' onClick={process.Alliance}>
           <div className="item-content">
             <div className="item-inner">
@@ -97,8 +106,30 @@ let process = {
                 <div className="center">Alliance</div>
               </div>
             </div>
-            <center><img src={"img/NB.jpg"} width={"100%"}/>
+            <center><img src={"img/A.jpg"} width={"100%"}/>
             <p>Alliance is a Swedish professional gaming organization formed in 2013. They are the Dota 2 The International Champion 2014.
+ </p></center>
+            <br/><a href='#' onClick={process.menu}>back</a>
+</div>
+</div>
+</div>
+</div>
+</div>;
+          ReactDOM.render(content,document.getElementById('root'));
+  },
+  InvictusGaming:function(){
+         let content = <div className="page">
+    <div className="page-content infinite-scroll infinite-scroll-top">
+<div className="page-content contacts-content">
+  <div className="list-block contacts-block">
+    <div className="list-group">
+     <div className="navbar">
+              <div className="navbar-inner">
+                <div className="center">InvictusGaming</div>
+              </div>
+            </div>
+            <center><img src={"img/IG.jpg"} width={"100%"}/>
+            <p>Invictus Gaming is a Chinese multi-platform e-sports organization. They are the Dota 2 The International Champion 2014.
  </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
