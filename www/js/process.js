@@ -77,6 +77,11 @@ let process = {
 </div>
 </div>
 </div>;
+ </div>
+</div>
+</div>
+</div>
+</div>;
       ReactDOM.render(content,document.getElementById('root'));
   },
   InvictusGaming:function(){
