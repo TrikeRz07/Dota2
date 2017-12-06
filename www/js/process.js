@@ -210,7 +210,7 @@ let process = {
               </div>
             </div>
             <center><img src={"img/EG.jpg"} width={"100%"}/>
-            <p>Evil Geniuses is a professional gaming organization founded in 1999. The organization is known as being the biggest electronic sports organization in North America. They're a current member of the G7 Teams. Their Dota 2 squad has win numerous events both in DotA and Dota 2 and is known as one of the most successful teams from North America.
+            <p>Evil Geniuses is a professional gaming organization founded in 1999, organization is in North America.
  </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
@@ -232,7 +232,7 @@ let process = {
               </div>
             </div>
             <center><img src={"img/W.jpg"} width={"100%"}/>
-            <p>Wings Gaming is a defunct Chinese Dota 2 eSports team that was based in Chongqing. They were best known for winning over US$9 million at The International 2016 (TI6), which was one of the most lucrative eSports tournaments in history.
+            <p>Wings Gaming is a defunct Chinese Dota 2 eSports team that was based in Chongqing.
  </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
@@ -254,7 +254,7 @@ let process = {
               </div>
             </div>
             <center><img src={"img/Liquid.jpg"} width={"100%"}/>
-            <p>Team Liquid is a professional team, founded in the Netherlands in 2000. Originally a Brood War clan, the team switched to StarCraft II during the SC2 Beta in 2010, and became one of the most successful western teams. On December 6, 2012, it was announced that the team had formed a Dota 2 division.
+            <p>Team Liquid is a professional team, founded in the Netherlands in 2000.
  </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
