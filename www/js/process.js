@@ -48,6 +48,39 @@ let process = {
         </li>
       </ul>
     </div>
+    </li>
+        <li><a href='#' onClick={process.EvilGeniuses}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">EvilGeniuses</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+    </li>
+        <li><a href='#' onClick={process.WingsGaming}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">WingsGaming</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
+    </li>
+        <li><a href='#' onClick={process.TeamLiquid}>
+          <div className="item-content">
+            <div className="item-inner">
+              <div className="item-title">TeamLiquid</div>
+                  <div className="item-after">Details</div>
+            </div>
+          </div></a>
+        </li>
+      </ul>
+    </div>
 
 </div>
 </div>
@@ -99,7 +132,7 @@ let process = {
 </div>;
       ReactDOM.render(content,document.getElementById('root'));
   },
-  InvitusGaming:function(){
+  InvictusGaming:function(){
          let content = <div className="page">
     <div className="page-content infinite-scroll infinite-scroll-top">
 <div className="page-content contacts-content">
@@ -157,6 +190,72 @@ let process = {
             <center><img src={"img/NB.jpg"} width={"100%"}/>
             <p>Newbee is a professional Dota 2 team based in Shanghai, China.
               </p></center>
+            <br/><a href='#' onClick={process.menu}>back</a>
+</div>
+</div>
+</div>
+</div>
+</div>;
+      ReactDOM.render(content,document.getElementById('root'));
+  },
+  EvilGeniuses:function(){
+         let content = <div className="page">
+    <div className="page-content infinite-scroll infinite-scroll-top">
+<div className="page-content contacts-content">
+  <div className="list-block contacts-block">
+    <div className="list-group">
+     <div className="navbar">
+              <div className="navbar-inner">
+                <div className="center">EvilGeniuses</div>
+              </div>
+            </div>
+            <center><img src={"img/EG.jpg"} width={"100%"}/>
+            <p>Evil Geniuses is a professional gaming organization founded in 1999. The organization is known as being the biggest electronic sports organization in North America. They're a current member of the G7 Teams. Their Dota 2 squad has win numerous events both in DotA and Dota 2 and is known as one of the most successful teams from North America.
+ </p></center>
+            <br/><a href='#' onClick={process.menu}>back</a>
+</div>
+</div>
+</div>
+</div>
+</div>;
+     ReactDOM.render(content,document.getElementById('root'));
+  },
+  WingsGaming:function(){
+         let content = <div className="page">
+    <div className="page-content infinite-scroll infinite-scroll-top">
+<div className="page-content contacts-content">
+  <div className="list-block contacts-block">
+    <div className="list-group">
+     <div className="navbar">
+              <div className="navbar-inner">
+                <div className="center">WingsGaming</div>
+              </div>
+            </div>
+            <center><img src={"img/W.jpg"} width={"100%"}/>
+            <p>Wings Gaming is a defunct Chinese Dota 2 eSports team that was based in Chongqing. They were best known for winning over US$9 million at The International 2016 (TI6), which was one of the most lucrative eSports tournaments in history.
+ </p></center>
+            <br/><a href='#' onClick={process.menu}>back</a>
+</div>
+</div>
+</div>
+</div>
+</div>;
+          ReactDOM.render(content,document.getElementById('root'));
+  },
+  TeamLiquid:function(){
+         let content = <div className="page">
+    <div className="page-content infinite-scroll infinite-scroll-top">
+<div className="page-content contacts-content">
+  <div className="list-block contacts-block">
+    <div className="list-group">
+     <div className="navbar">
+              <div className="navbar-inner">
+                <div className="center">TeamLiquid</div>
+              </div>
+            </div>
+            <center><img src={"img/Liquid.jpg"} width={"100%"}/>
+            <p>Team Liquid is a professional team, founded in the Netherlands in 2000. Originally a Brood War clan, the team switched to StarCraft II during the SC2 Beta in 2010, and became one of the most successful western teams. On December 6, 2012, it was announced that the team had formed a Dota 2 division.
+ </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
 </div>
