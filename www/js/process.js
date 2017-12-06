@@ -157,7 +157,7 @@ let process = {
               </div>
             </div>
             <center><img src={"img/A.jpg"} width={"100%"}/>
-            <p>Alliance is a Swedish professional gaming organization formed in 2013.They are the champion of Dota 2 The International 2013. </p></center>
+            <p>Alliance is a Swedish professional gaming organization formed in 2013. They are the champion of Dota 2 The International 2013. </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
 </div>
@@ -198,7 +198,7 @@ let process = {
                 <div className="center">EvilGeniuses</div>
               </div>
             </div>
-            <center><img src={"img/N.jpg"} width={"100%"}/>
+            <center><img src={"img/EG.jpg"} width={"100%"}/>
             <p>Evil Geniuses is a professional gaming organization founded in 1999, organization is in North America. They are the champion of Dota 2 The International 2015.
  </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
@@ -220,7 +220,7 @@ let process = {
                 <div className="center">WingsGaming</div>
               </div>
             </div>
-            <center><img src={"img/NB.jpg"} width={"100%"}/>
+            <center><img src={"img/W.jpg"} width={"100%"}/>
             <p>Wings Gaming is a defunct Chinese eSports team that was based in Chongqing. They are the champion of Dota 2 The International 2016. </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
@@ -241,7 +241,7 @@ let process = {
                 <div className="center">TeamLiquid</div>
               </div>
             </div>
-            <center><img src={"img/NB.jpg"} width={"100%"}/>
+            <center><img src={"img/Liquid.jpg"} width={"100%"}/>
             <p>Team Liquid is a professional team, founded in the Netherlands in 2000. They are the champion of Dota 2 The International 2017. </p></center>
             <br/><a href='#' onClick={process.menu}>back</a>
 </div>
